@@ -26,6 +26,3 @@ jobs:
       - run: sh ./run.sh
 
       - run: ls
-
-      # prevents fatal: detected dubious ownership in repository at '/__w/github-automation/github-automation'
-      - run: git config --global --add safe.directory /__w/github-automation/github-automation
