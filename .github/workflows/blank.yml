@@ -29,3 +29,6 @@ jobs:
 
       # prevents fatal: detected dubious ownership in repository at '/__w/github-automation/github-automation'
       - run: git config --global --add safe.directory /__w/w1/w1
+
+      # Commit all changed files back to the repository
+      - uses: stefanzweifel/git-auto-commit-action@v5
